@@ -17,9 +17,11 @@ Wheeled Mobile Robot}",
 ```
 
 # How to use the codes
-## simulation of Machine learning of oracle
-   (Refer to: ***Localization_oracle.m***)
+## simulation of machine learning oracle
+   (Refer to: ***Localization_oracle.m***) <br />
    We use the Bernoulli uncertainty model to simulate the result of any machine learning localization algorithm's results.
 ## codes of pruning algorithm
-   (Refer to: ***robustneess_support***)
+   (Refer to: ***robustneess_support***) <br />
+## Note: the way to use the upper two set of codes
+    Refer to *Pruning_observer_inexact/Attack_localization_and_Removing/Attack_localization* block)
    
