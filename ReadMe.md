@@ -22,6 +22,11 @@ Wheeled Mobile Robot}",
    We use the Bernoulli uncertainty model to simulate the result of any machine learning localization algorithm's results.
 ## codes of pruning algorithm
    (Refer to: ***robustneess_support***) <br />
-## Note: the way to use the upper two set of codes
-    Refer to *Pruning_observer_inexact/Attack_localization_and_Removing/Attack_localization* block)
+**Note: the way to use the upper two set of codes** <br />
+Refer to ***Pruning_observer_inexact.slx/Attack_localization_and_Removing/Attack_localization*** block.
+
+## codes of FDIA construction
+  ***getAttackIndices.m***: obatin the support of the optimal attacked locations<br />
+  ***gen_attack_channel.m***: generate the successful FDIA based on the selected locations<br />
+  **Notice**: the way to use these two set of codes, please follow the mathmatical process in the paper, and refer to the function in ***Pruning_observer_inexact.slx/FDIA***.
    
