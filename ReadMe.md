@@ -30,3 +30,16 @@ Refer to ***Pruning_observer_inexact.slx/Attack_localization_and_Removing/Attack
   ***gen_attack_channel.m***: generate the successful FDIA based on the selected locations<br />
   **Notice**: the way to use these two set of codes, please follow the mathmatical process in the paper, and refer to the function in ***Pruning_observer_inexact.slx/FDIA***.
    
+## codes of dynamic and kinematic model of WMR
+   ***Pruning_observer_inexact.slx/dynamic model***<br />
+   ***Pruning_observer_inexact.slx/Forward kinematic model***
+   
+## codes of path-tracking controller
+   ***Pruning_observer_inexact.slx/path_tracking controller***
+   
+## Simulation of path-tracking under FDIA
+Please run ***Run_this_file_for_DDWMR_model*** firstly to set all parameters; <br />
+***Pruning_observer_inexact.slx***: the simulation for pruning observer based on inexact oracle<br />
+***UKF_under_FDIA.slx***: the simulation for only UKF<br />
+***only_oracle_and_UKF.slx***: the simulation for UKF based on oracle 
+***DDWMR.slx***: the path-tracking simulation without attacks
