@@ -16,6 +16,8 @@ Wheeled Mobile Robot}",
 }
 ```
 
+Any question about the paper, please contact Yu Zheng (*yz19b@fsu.edu*), Dr.Anubi (*anubi@fsu.edu*).
+
 # How to use the codes
 ## simulation of machine learning oracle
    (Refer to: ***Localization_oracle.m***) <br />
