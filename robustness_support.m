@@ -63,16 +63,21 @@ function L_eta = reliable_num_attacks(p,eta,N)
 %     - L_eta [scalar]      : reliable number of attacked nodes
 
 P_mutiply = prod(p);
-con = zeros(1,N+1);                    % Define the size of the convolution result vector
-con(1:2)=[(1-p(1))/p(1),1];            % Initial convolution vector
 
-for ii = 1:N-1
-    M = [(1-p(ii+1))/p(ii+1),1];       % Bernoulli probability vector
-    v=conv(con,M);
-    con=v(1:N+1);
-end
+s = -(1-p)./p;
+S = poly(s);
+temp_r = P_mutiply*S;
+r = temp_r(N+1:-1:1);
+%con = zeros(1,N+1);                    % Define the size of the convolution result vector
+%con(1:2)=[(1-p(1))/p(1),1];            % Initial convolution vector
 
-r = P_mutiply*con';                    % probability mass function for poisson-binomially distribution
+%for ii = 1:N-1
+%    M = [(1-p(ii+1))/p(ii+1),1];       % Bernoulli probability vector
+%    v=conv(con,M);
+%    con=v(1:N+1);
+%end
+
+%r = P_mutiply*con';                    % probability mass function for poisson-binomially distribution
 
 %% define a reliability /eta, and use the probaility r wo get reliable number of attacked nodes
 if r(1) > (1-eta) 
