@@ -18,6 +18,10 @@ Wheeled Mobile Robot}",
 
 Any question about the paper, please contact Yu Zheng (*yz19b@fsu.edu*), Dr.Anubi (*anubi@fsu.edu*).
 
+# Simulation results
+![resilient_motion_control](https://user-images.githubusercontent.com/36635562/153718494-9b20ce71-060b-48d3-ba68-ac89dccda769.png)
+
+
 # How to use the codes
 ## simulation of machine learning oracle
    (Refer to: ***Localization_oracle.m***) <br />
