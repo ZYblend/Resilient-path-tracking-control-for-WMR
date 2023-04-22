@@ -1,7 +1,7 @@
 # Introduction
 These files are the simulation based on Matlab/Simulink for the paper: **ATTACK-RESILIENT OBSERVER PRUNING FOR PATH-TRACKING CONTROL OFWHEELED MOBILE ROBOT**.
 
-If you use the whole codes or part of them, please cite the paper:
+If you use the whole codes or part of them, please cite the papers:
 ```
 @proceeding{Yu2020false,
   author={Zheng, Yu and Anubi, Olugbenga Moses},
@@ -13,6 +13,17 @@ Wheeled Mobile Robot}",
   pages={},
   year={2020},
   publisher={ASME}
+}
+```
+or:
+```
+@incollection{zheng2022resilient,
+  title={Resilient Observer Design for Cyber-Physical Systems with Data-Driven Measurement Pruning},
+  author={Zheng, Yu and Anubi, Olugbenga Moses},
+  booktitle={Security and Resilience in Cyber-Physical Systems: Detection, Estimation and Control},
+  pages={85--117},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
